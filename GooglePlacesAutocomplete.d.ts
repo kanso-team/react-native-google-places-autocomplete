@@ -367,6 +367,7 @@ interface RequestUrl {
 }
 
 interface GooglePlacesAutocompleteProps {
+  rowTestID?:string;
   autoFillOnNotFound?: boolean;
   /** Will add a 'Current location' button at the top of the predefined places list */
   currentLocation?: boolean;
