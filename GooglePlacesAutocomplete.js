@@ -615,6 +615,7 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
   const _renderRow = (rowData = {}, index) => {
     return (
       <ScrollView
+        testID={props.rowTestID}
         contentContainerStyle={
           props.isRowScrollable ? { minWidth: '100%' } : { width: '100%' }
         }
